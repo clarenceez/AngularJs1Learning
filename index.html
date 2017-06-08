@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+		<script type="text/javascript" src="JS/app.js" ></script>
+	</head>
+
+	<body>
+
+		<div ng-app="app" ng-controller="ctrl">
+			<p ng-html="test">我的第一个表达式: {{ test|myFilter:'1' }}</p>
+		</div>
+	</body>
+
+</html>
